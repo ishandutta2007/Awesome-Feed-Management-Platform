@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="240">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <style>
+      .title { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 34px; fill: #ffffff; }
+      .subtitle { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 16px; fill: #94a3b8; }
+      .tag { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 12px; fill: #38bdf8; }
+      
+      @keyframes pulseNode {
+        0%, 100% { r: 6px; opacity: 0.6; }
+        50% { r: 10px; opacity: 1; filter: drop-shadow(0 0 8px #38bdf8); }
+      }
+
+      @keyframes flowLine {
+        0% { stroke-dashoffset: 200; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      @keyframes floatCard {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+
+      .node1 { animation: pulseNode 3s infinite ease-in-out; }
+      .node2 { animation: pulseNode 3s infinite ease-in-out 1.5s; }
+      .flow { stroke-dasharray: 10, 10; animation: flowLine 15s linear infinite; }
+      .card { animation: floatCard 4s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="240" rx="16" fill="url(#bg)"/>
+  <rect width="800" height="240" rx="16" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <!-- Dynamic Network Data Feed Background Graphics (Right aligned, kept behind foreground text) -->
+  <g opacity="0.35" transform="translate(420, 20)">
+    <path class="flow" d="M 50,40 Q 150,100 280,50 T 340,160" fill="none" stroke="url(#accent)" stroke-width="2"/>
+    <path class="flow" d="M 20,120 Q 120,40 250,140 T 350,80" fill="none" stroke="#818cf8" stroke-width="2"/>
+    
+    <circle cx="50" cy="40" r="6" fill="#38bdf8" class="node1"/>
+    <circle cx="150" cy="100" r="8" fill="#818cf8" class="node2"/>
+    <circle cx="280" cy="50" r="6" fill="#c084fc" class="node1"/>
+    <circle cx="340" cy="160" r="7" fill="#38bdf8" class="node2"/>
+    <circle cx="250" cy="140" r="6" fill="#f43f5e" class="node1"/>
+  </g>
+
+  <!-- Decorative Accent Line -->
+  <rect x="50" y="45" width="60" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- Foreground Content -->
+  <text x="50" y="85" class="title">Awesome Feed Management</text>
+  <text x="50" y="115" class="title" fill="url(#accent)">Platforms &amp; Ecosystem 🚀</text>
+  
+  <text x="50" y="152" class="subtitle">Curated directory of SaaS &amp; Open-Source tools for Product Feed Optimization,</text>
+  <text x="50" y="174" class="subtitle">Multi-Channel Syndication, Google Shopping &amp; Marketplaces.</text>
+
+  <!-- Dynamic Feature Badges / Pills -->
+  <g transform="translate(50, 192)">
+    <rect x="0" y="0" width="130" height="26" rx="13" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+    <text x="65" y="17" class="tag" text-anchor="middle">⚡ Product Feeds</text>
+
+    <rect x="140" y="0" width="150" height="26" rx="13" fill="#1e293b" stroke="#818cf8" stroke-width="1"/>
+    <text x="215" y="17" class="tag" fill="#818cf8" text-anchor="middle">🛍️ Google Shopping</text>
+
+    <rect x="300" y="0" width="140" height="26" rx="13" fill="#1e293b" stroke="#c084fc" stroke-width="1"/>
+    <text x="370" y="17" class="tag" fill="#c084fc" text-anchor="middle">📦 Open-Source PIM</text>
+  </g>
+</svg>
