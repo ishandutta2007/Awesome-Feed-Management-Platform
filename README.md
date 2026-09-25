@@ -48,18 +48,18 @@ Below is a comparison of commercial feed management systems sorted by company va
 
 Dedicated multi-channel feed engines with thousands of real-time marketplace rules are predominantly commercial. However, open-source **Product Information Management (PIM)** systems, **headless commerce platforms**, and dedicated **PHP/Python feed libraries** provide scalable options for merchants seeking full data ownership.
 
-Repositories below are sorted by **GitHub Star Count** (descending):
+Repositories below are sorted by **GitHub Stars_Count** (descending):
 
-| Project / Repository | GitHub Stars Badge | Primary Use Case & Architecture | License |
+| Project / Repository | GitHub_Stars_Badge | Primary Use Case & Architecture | License |
 | :--- | :--- | :--- | :--- |
-| **[Medusa](https://github.com/medusajs/medusa)** | [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social)](https://github.com/medusajs/medusa/stargazers) | Open-source Node.js commerce engine with automated product catalog exports and feed generation extensions. | MIT |
-| **[Saleor](https://github.com/saleor/saleor)** | [![GitHub stars](https://img.shields.io/github/stars/saleor/saleor?style=social)](https://github.com/saleor/saleor/stargazers) | Modular GraphQL-first headless commerce platform with channel-specific feed export capabilities. | BSD-3-Clause |
-| **[UnoPIM](https://github.com/unopim/unopim)** | [![GitHub stars](https://img.shields.io/github/stars/unopim/unopim?style=social)](https://github.com/unopim/unopim/stargazers) | Modern open-source PIM & DAM system built on Laravel for high-volume catalog enrichment and feed exports. | MIT |
-| **[Solidus](https://github.com/solidusio/solidus)** | [![GitHub stars](https://img.shields.io/github/stars/solidusio/solidus?style=social)](https://github.com/solidusio/solidus/stargazers) | Ruby on Rails open-source e-commerce platform with community plugins for Google Shopping feed output (`solidus_feed`). | BSD-3-Clause |
-| **[Pimcore](https://github.com/pimcore/pimcore)** | [![GitHub stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social)](https://github.com/pimcore/pimcore/stargazers) | Enterprise open-core PIM/MDM platform enabling complex multi-channel taxonomy mapping and feed generation. | GPLv3 |
-| **[Akeneo PIM Community](https://github.com/akeneo/pim-community-dev)** | [![GitHub stars](https://img.shields.io/github/stars/akeneo/pim-community-dev?style=social)](https://github.com/akeneo/pim-community-dev/stargazers) | Popular open-source PIM platform serving as a central catalog hub with XML/CSV channel feed exporters. | OSL-3.0 |
-| **[AtroCore / AtroPIM](https://github.com/atrocore/atrocore)** | [![GitHub stars](https://img.shields.io/github/stars/atrocore/atrocore?style=social)](https://github.com/atrocore/atrocore/stargazers) | Flexible PHP-based open-source PIM system with customizable multi-channel attribute mapping and scheduled feed sync. | GPLv3 |
-| **[ShoppingFlux Feed Generator](https://github.com/shoppingflux/php-feed-generator)** | [![GitHub stars](https://img.shields.io/github/stars/shoppingflux/php-feed-generator?style=social)](https://github.com/shoppingflux/php-feed-generator/stargazers) | Lightweight PHP library specifically designed to generate large XML/CSV product feeds streamable to Google Shopping & marketplaces. | MIT |
+| **[Medusa](https://github.com/medusajs/medusa)** | [![GitHub_Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social)](https://github.com/medusajs/medusa/stargazers) | Open-source Node.js commerce engine with automated product catalog exports and feed generation extensions. | MIT |
+| **[Saleor](https://github.com/saleor/saleor)** | [![GitHub_Stars](https://img.shields.io/github/stars/saleor/saleor?style=social)](https://github.com/saleor/saleor/stargazers) | Modular GraphQL-first headless commerce platform with channel-specific feed export capabilities. | BSD-3-Clause |
+| **[UnoPIM](https://github.com/unopim/unopim)** | [![GitHub_Stars](https://img.shields.io/github/stars/unopim/unopim?style=social)](https://github.com/unopim/unopim/stargazers) | Modern open-source PIM & DAM system built on Laravel for high-volume catalog enrichment and feed exports. | MIT |
+| **[Solidus](https://github.com/solidusio/solidus)** | [![GitHub_Stars](https://img.shields.io/github/stars/solidusio/solidus?style=social)](https://github.com/solidusio/solidus/stargazers) | Ruby on Rails open-source e-commerce platform with community plugins for Google Shopping feed output (`solidus_feed`). | BSD-3-Clause |
+| **[Pimcore](https://github.com/pimcore/pimcore)** | [![GitHub_Stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social)](https://github.com/pimcore/pimcore/stargazers) | Enterprise open-core PIM/MDM platform enabling complex multi-channel taxonomy mapping and feed generation. | GPLv3 |
+| **[Akeneo PIM Community](https://github.com/akeneo/pim-community-dev)** | [![GitHub_Stars](https://img.shields.io/github/stars/akeneo/pim-community-dev?style=social)](https://github.com/akeneo/pim-community-dev/stargazers) | Popular open-source PIM platform serving as a central catalog hub with XML/CSV channel feed exporters. | OSL-3.0 |
+| **[AtroCore / AtroPIM](https://github.com/atrocore/atrocore)** | [![GitHub_Stars](https://img.shields.io/github/stars/atrocore/atrocore?style=social)](https://github.com/atrocore/atrocore/stargazers) | Flexible PHP-based open-source PIM system with customizable multi-channel attribute mapping and scheduled feed sync. | GPLv3 |
+| **[ShoppingFlux Feed Generator](https://github.com/shoppingflux/php-feed-generator)** | [![GitHub_Stars](https://img.shields.io/github/stars/shoppingflux/php-feed-generator?style=social)](https://github.com/shoppingflux/php-feed-generator/stargazers) | Lightweight PHP library specifically designed to generate large XML/CSV product feeds streamable to Google Shopping & marketplaces. | MIT |
 
 ---
 
@@ -80,7 +80,7 @@ Contributions are warmly welcomed! Help make this ecosystem resource even better
 
 1. Fork this repository.
 2. Create a new topic branch (`git checkout -b feature/new-feed-tool`).
-3. Add your entry to `README.md` maintaining table formatting, pricing transparency, and verified star count links.
+3. Add your entry to `README.md` maintaining table formatting, pricing transparency, and verified Stars_Count links.
 4. Commit your changes (`git commit -m 'Add NewFeedPlatform to SaaS table'`).
 5. Open a Pull Request with a clear description of the platform or tool.
 
